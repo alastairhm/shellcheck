@@ -1,0 +1,19 @@
+# shellcheck
+
+## A Docker image for `shellcheck`
+
+This repository provides an automated build for a Apline with [shellcheck](https://www.shellcheck.net/) Docker image.
+
+## Usage
+
+To check the files `one.sh` and `two.sh` in your current directory:
+
+```bash
+docker run --rm -v "$PWD:/mnt" alastairhm/shellcheck ./one.sh ./two.sh
+```
+
+Or setup an alias
+
+```bash
+alias shellcheck='docker run --rm -v "$PWD:/mnt" alastairhm/shellcheck'
+```
