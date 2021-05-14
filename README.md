@@ -1,6 +1,6 @@
 # shellcheck
 
-[![](http://dockeri.co/image/alastairhm/alpine-shellcheck)](https://index.docker.io/u/alastairhm/alpine-shellcheck/)
+[![](http://dockeri.co/image/alastairhm/shellcheck)](https://index.docker.io/u/alastairhm/shellcheck/)
 
 ## A Docker image for `shellcheck`
 
