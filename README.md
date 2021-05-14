@@ -1,5 +1,7 @@
 # shellcheck
 
+[![](http://dockeri.co/image/alastairhm/alpine-shellcheck)](https://index.docker.io/u/alastairhm/alpine-shellcheck/)
+
 ## A Docker image for `shellcheck`
 
 This repository provides an automated build for a Apline with [shellcheck](https://www.shellcheck.net/) Docker image.
