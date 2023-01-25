@@ -6,6 +6,14 @@
 
 This repository provides an automated build for a Apline with [shellcheck](https://www.shellcheck.net/) Docker image.
 
+## Build
+
+Build the Docker image locally
+
+```bash
+docker build -t alastairhm/shellcheck .
+```
+
 ## Usage
 
 To check the files `one.sh` and `two.sh` in your current directory:
