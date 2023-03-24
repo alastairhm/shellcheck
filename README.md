@@ -2,6 +2,8 @@
 
 [![](http://dockeri.co/image/alastairhm/shellcheck)](https://index.docker.io/u/alastairhm/shellcheck/)
 
+[![Docker](https://github.com/alastairhm/shellcheck/actions/workflows/build.yaml/badge.svg)](https://github.com/alastairhm/shellcheck/actions/workflows/build.yaml)
+
 ## A Docker image for `shellcheck`
 
 This repository provides an automated build for a Apline with [shellcheck](https://www.shellcheck.net/) Docker image.
