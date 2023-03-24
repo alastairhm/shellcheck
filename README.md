@@ -19,11 +19,11 @@ docker build -t alastairhm/shellcheck .
 To check the files `one.sh` and `two.sh` in your current directory:
 
 ```bash
-docker run --rm -v "$PWD:/mnt" alastairhm/shellcheck ./one.sh ./two.sh
+docker run --rm -v "$PWD:/mnt" ghcr.io/alastairhm/shellcheck:master ./one.sh ./two.sh
 ```
 
 Or setup an alias
 
 ```bash
-alias shellcheck='docker run --rm -v "$PWD:/mnt" alastairhm/shellcheck'
+alias shellcheck='docker run --rm -v "$PWD:/mnt" ghcr.io/alastairhm/shellcheck:master
 ```
