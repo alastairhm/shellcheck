@@ -8,7 +8,10 @@ Dates in this file are in format of YYYY-MM-DD (2019-12-13 means 13th of Decembe
 
 ## [Unreleased]
 
+## [[3.22]](https://github.com/alastairhm/shellcheck/releases/tag/3.22) - 2025-10-12
+
 * Taskfile
+* Alpine 3.22
 * Alpine 3.21
 
 ## [[3.17]](https://github.com/alastairhm/shellcheck/releases/tag/3.17) - 2023-03-24
